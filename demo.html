@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Section</title>
+  <style>
+    body {
+        font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+  
+    .whole {
+       background-image: url('./assets/images/twohalll.png');
+       background-position: center;
+       background-size: cover;
+    }
+    .responsive-section {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .responsive-section img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 8px;
+    }
+    .description {
+      max-width: 400px;
+    }
+    .description p{
+        font-family: sans-serif;
+        line-height: 23px;
+    }
+    .description button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .description button:hover {
+      background-color: #0056b3;
+    }
+
+    @media (max-width: 992px) {
+
+        .whole{
+            background-color: antiquewhite;
+        }
+    }
+
+
+    @media (max-width: 767px) {
+        .whole{
+            background-color: antiquewhite;
+        }
+    }
+  </style>
+</head>
+<body>
+
+    <h2 style="text-align: center;">Featured <span style="color: blue;">Programmes </span></h2>
+    <section class="whole">
+        
+        
+        <section class="responsive-section">
+
+
+            <img src="./assets/images/Luso creative space (144).jpg" alt="Placeholder Image">
+            <div class="description">
+              <p style="color: #ffffff; font-family: sans-serif;">
+                Our college offers flexible and accessible learning options designed to fit the diverse needs of students.
+                Whether you choose e-learning or physical classes, you’ll gain valuable skills to succeed in your career.
+              </p>
+              <button>Learn More</button>
+            </div>
+
+
+            <img src="./assets/images/Luso creative space (144).jpg" alt="Placeholder Image">
+            <div class="description">
+              <p>
+                Our college offers flexible and accessible learning options designed to fit the diverse needs of students.
+                Whether you choose e-learning or physical classes, you’ll gain valuable skills to succeed in your career.
+              </p>
+              <button>Learn More</button>
+            </div>
+
+
+            <img src="./assets/images/Luso creative space (144).jpg" alt="Placeholder Image">
+            <div class="description">
+              <p>
+                Our college offers flexible and accessible learning options designed to fit the diverse needs of students.
+                Whether you choose e-learning or physical classes, you’ll gain valuable skills to succeed in your career.
+              </p>
+              <button>Learn More</button>
+            </div>
+
+
+            <img src="./assets/images/Luso creative space (144).jpg" alt="Placeholder Image">
+            <div class="description">
+              <p  style="color: #ffffff; font-family: sans-serif; ">
+                Our college offers flexible and accessible learning options designed to fit the diverse needs of students.
+                Whether you choose e-learning or physical classes, you’ll gain valuable skills to succeed in your career.
+              </p>
+              <button>Learn More</button>
+            </div>
+
+
+          </section>
+        
+        
+       
+ 
+</body>
+</html>
