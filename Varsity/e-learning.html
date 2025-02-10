@@ -37,6 +37,58 @@
     <![endif]-->
 
   </head>
+
+
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f4f4f4;
+    }
+    .steps-container {
+        width: 90%;
+        max-width: 900px;
+        margin: auto;
+        padding: 20px;
+    }
+    .step {
+        background: white;
+        margin: 20px 0;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .step img {
+        width: 400px;
+        height: 400px;
+        border-radius: 10px;
+        margin-right: 20px;
+    }
+    .step-content {
+        flex: 1;
+    }
+    .step h3 {
+        margin: 0 0 10px;
+        color: #333;
+    }
+    .step p {
+        margin: 0;
+        color: #666;
+    }
+    @media (max-width: 600px) {
+        .step {
+            flex-direction: column;
+            text-align: center;
+        }
+        .step img {
+            margin-bottom: 10px;
+        }
+    }
+</style>
+
   <body> 
   <!--START SCROLL TOP BUTTON -->
     <a class="scrollToTop" href="#">
@@ -81,8 +133,8 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Student Life <span class="fa fa-angle-down"></span></a>
               <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Students</a></li>                
-                <li><a href="#">Aluminia</a></li>                
+                <li><a href="blog-archive.html">Students</a></li>                
+                <li><a href="blog-single.html">Aluminia</a></li>                
               </ul>
             </li>   
 
@@ -140,171 +192,61 @@
           </div>
           <!-- end title -->
           <!-- start gallery content -->
-          <div class="mu-gallery-content">
-            <!-- Start gallery menu -->
-            <div class="mu-gallery-top">              
-              <ul>
-                <li class="filter active" data-filter="all">All</li>
-                <li class="filter" data-filter=".lab">Step 1</li>
-                <li class="filter" data-filter=".classroom">Step 2</li>
-                <li class="filter" data-filter=".library">Step 3</li>
-                <li class="filter" data-filter=".cafe">Step 4</li>
-                <li class="filter" data-filter=".others">Step 5</li>
-              </ul>
+        
+
+  
+          <div class="steps-container">
+            <div class="step">
+                <img src="../assets/images/About Zcpit.png" alt="Step 1">
+                <div class="step-content">
+                    <h3 style="font-weight: 600;">Step 1: Title</h3>
+                    <p>Instructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Platfomr</p>
+                </div>
             </div>
-            <!-- End gallery menu -->
-            <div class="mu-gallery-body">
-              <ul id="mixit-container" class="row">
-                <!-- start single gallery image -->
-                <li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img alt="img" src="assets/img/gallery/small/1.jpg"></a>
-                      </div>
-                      <div class="mu-single-gallery-info">
-                        <div class="mu-single-gallery-info-inner">
-                          <h4>ZCPIT IT Department</h4>
-                          <p>Phone Numbeer: +26097736653738</p>
-                          
-                        </div>
-                      </div>                  
-                    </div>
-                  </div>
-                </li>
-                <!-- start single gallery image -->
-               <li class="col-md-4 col-sm-6 col-xs-12 mix library">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img alt="img" src="assets/img/gallery/small/2.jpg"></a>
-                      </div>
-                       <div class="mu-single-gallery-info">
-                        <div class="mu-single-gallery-info-inner">
-                          <h4>ZCPIT IT Department</h4>
-                          <p>Phone Numbeer: +26097736653738</p>
-                        </div>
-                      </div> 
-                    </div>
-                  </div>
-               </li>
-                <!-- start single gallery image -->
-                <li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img alt="img" src="assets/img/gallery/small/3.jpg"></a>
-                      </div>
-                      <div class="mu-single-gallery-info">
-                        <div class="mu-single-gallery-info-inner">
-                          <h4>ZCPIT IT Department</h4>
-                          <p>Phone Numbeer: +26097736653738</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <!-- start single gallery image -->
-                <li class="col-md-4 col-sm-6 col-xs-12 mix classroom">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img alt="img" src="assets/img/gallery/small/4.jpg"></a>
-                      </div>
-                       <div class="mu-single-gallery-info">
-                        <div class="mu-single-gallery-info-inner">
-                          <h4>ZCPIT IT Department</h4>
-                          <p>Phone Numbeer: +26097736653738</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <!-- start single gallery image -->
-                <li class="col-md-4 col-sm-6 col-xs-12 mix others">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img alt="img" src="assets/img/gallery/small/5.jpg"></a>
-                      </div>
-                      <div class="mu-single-gallery-info">
-                        <div class="mu-single-gallery-info-inner">
-                          <h4>ZCPIT IT Department</h4>
-                          <p>Phone Numbeer: +26097736653738</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <!-- start single gallery image -->
-                <li class="col-md-4 col-sm-6 col-xs-12 mix cafe">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img alt="img" src="assets/img/gallery/small/6.jpg"></a>
-                      </div>
-                       <div class="mu-single-gallery-info">
-                        <div class="mu-single-gallery-info-inner">
-                          <h4>ZCPIT IT Department</h4>
-                          <p>Phone Numbeer: +26097736653738</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <!-- start single gallery image -->
-                <li class="col-md-4 col-sm-6 col-xs-12 mix others">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img alt="img" src="assets/img/gallery/small/7.jpg"></a>
-                      </div>
-                      <div class="mu-single-gallery-info">
-                        <div class="mu-single-gallery-info-inner">
-                          <h4>ZCPIT IT Department</h4>
-                          <p>Phone Numbeer: +26097736653738</p>
-                        </div>
-                      </div>             
-                    </div>
-                  </div> 
-                </li>
-                 <!-- start single gallery image -->
-                <li class="col-md-4 col-sm-6 col-xs-12 mix library">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img alt="img" src="assets/img/gallery/small/8.jpg"></a>
-                      </div>
-                       <div class="mu-single-gallery-info">
-                        <div class="mu-single-gallery-info-inner">
-                          <h4>ZCPIT IT Department</h4>
-                          <p>Phone Numbeer: +26097736653738</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-                <!-- start single gallery image -->
-                <li class="col-md-4 col-sm-6 col-xs-12 mix lab">
-                  <div class="mu-single-gallery">                  
-                    <div class="mu-single-gallery-item">
-                      <div class="mu-single-gallery-img">
-                        <a href="#"><img alt="img" src="assets/img/gallery/small/9.jpg"></a>
-                      </div>
-                      <div class="mu-single-gallery-info">
-                        <div class="mu-single-gallery-info-inner">
-                          <h4>ZCPIT IT Department</h4>
-                          <p>Phone Numbeer: +26097736653738</p>
-                        </div>
-                      </div>             
-                    </div>
-                  </div> 
-                </li>
-              </ul>            
+            <div class="step">
+                <img src="../assets/images/About Zcpit.png" alt="Step 2">
+                <div class="step-content">
+                    <h3 style="font-weight: 600;">Step 2: Title</h3>
+                    <p>Instructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Platfomr</p>
+                </div>
             </div>
+            <div class="step">
+                <img src="../assets/images/About Zcpit.png" alt="Step 3">
+                <div class="step-content">
+                    <h3 style="font-weight: 600;">Step 3: Title</h3>
+                    <p>Instructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Platfomr</p>
+                </div>
+            </div>
+
+            <div class="step">
+              <img src="../assets/images/About Zcpit.png" alt="Step 3">
+              <div class="step-content">
+                  <h3 style="font-weight: 600;">Step 3: Title</h3>
+                  <p>Instructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Platfomr</p>
+              </div>
           </div>
-          <!-- end gallery content -->
-         </div>
+
+
+          <div class="step">
+            <img src="../assets/images/About Zcpit.png" alt="Step 3">
+            <div class="step-content">
+                <h3 style="font-weight: 600;">Step 3: Title</h3>
+                <p>Instructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Platfomr</p>
+            </div>
+        </div>
+
+
+        <div class="step">
+          <img src="../assets/images/About Zcpit.png" alt="Step 3">
+          <div class="step-content">
+              <h3 style="font-weight: 600;">Step 3: Title</h3>
+              <p>Instructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Plaructions for Astria Platfomr</p>
+          </div>
+      </div>
+        </div>
+    
+
+
        </div>
      </div>
    </div>
